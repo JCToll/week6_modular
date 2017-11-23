@@ -1,0 +1,115 @@
+
+body {
+    font-family: Verdana, Helvetica, FreeSans, sans-serif ;
+}
+header {
+  text-align: center;
+  color: darkblue;
+  margin: 20px;
+}
+section {
+  float: left;
+  min-height: 430px;
+  min-width: 300px;
+  max-width: 300px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: thin;
+  text-align: center;
+  padding: 6px;
+  margin: 0px;  /* make this 0 if you want boxes aligned */
+}
+.swatches ul {
+  clear: both; 
+  float: left;
+}
+.swatches li {
+  float: left;
+  width: 15px ;
+  height: 15px;
+  border-radius: 100%;
+  margin: 10px 4px; 
+  list-style-type: none;   /* remove bullets */
+  border: 1px solid gray;  /* add light gray outline to each circle - so that the white circle shows up */
+}
+.bg-black { 
+    background-color: black; 
+}
+.bg-white {
+    background-color: white;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-gray {
+  background-color:gray;
+}
+.bg-yellow {
+  background-color:yellow;
+}
+.bg-purple {
+  background-color:purple;
+}
+.bg-pink {
+  background-color:pink;
+}
+.bg-brown {
+    background-color: saddlebrown;
+}
+section h5 {
+  clear: both;
+  margin: 4px 0px;
+  text-align: center ;
+  color: black ;
+}
+section h6 {
+  clear: both;
+  font-size: 0.9rem; 
+  text-align: center ; 
+  margin: 4px 0px;
+ /* margin-left: 50px;  */
+}
+section p {
+  clear: both;
+  margin: 8px 0px;
+  font-size: .8rem; 
+  text-align: center;
+}
+
+.price {
+  font-weight: bold;
+  text-decoration: none ;
+  color: black; 
+  font-size: .8rem; 
+}
+.price-sale {
+  font-weight: bold;
+  text-decoration: none ;
+  color: red; 
+  font-size: .8rem; 
+}
+.price-orig-strike {
+  text-decoration: line-through;
+  color: darkslategrey; 
+  font-size: .8rem; 
+}
+
+p.savings {
+  clear: both;
+  float: left; 
+  width: 100%;
+  font-family: Verdana, Helvetica, FreeSans, sans-serif ;
+  font-size: 0.9rem; 
+  text-align: center ; 
+  margin: 10px 0px;
+}
+.stars {
+  clear:both ;
+  float:left;
+}
